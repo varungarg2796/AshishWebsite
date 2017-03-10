@@ -12,38 +12,15 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
-
-	<style>
-	body{
-		padding-top: 40px;
-	}
-	.navbar{ 
-    	background-image: none;
-	}
-  .certDetails{
-    color:grey;
-  }
-
-	.carouselImg img {
-		width: auto;
-		height: 450px;
-		max-height: 450px;
-	}
-
- 
-	.carousel-inner > .item > img,
-	  .carousel-inner > .item > a > img {
-	      width: 60%;
-	      margin: auto;
-	}
-
-	</style>
 
 <body data-spy="scroll" data-target="#my-navbar">
 
   <!-- Navbar -->
-  	<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  	<nav class="navbar navbar-fixed-top animated bounceInDown" id="my-navbar">
   		<div class="container">
   			<div class="navbar-header">
   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -52,9 +29,9 @@
   					<span class="icon-bar"></span>
 
   				</button>
-  				<a href="" class="navbar-brand">Ashish Thakuri</a>
+  				<a href="" class="navbar-brand" >Ashish Thakuri</a>
   			</div><!-- Navbar Header-->
-  			<div class="collapse navbar-collapse" id="navbar-collapse">
+  			<div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
   				<ul class="nav navbar-nav">
   					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a> 
   					<li><a data-toggle="collapse" data-target=".navbar-collapse" href="#gallery">Gallery</a> 
@@ -64,10 +41,71 @@
   			</div>
   		</div><!-- End Container-->
   	</nav><!-- End navbar -->
+   
 
+
+
+
+      <div class="container">
+        <section>
+            <div class="page-header" id="about">
+               
+            </div>
+
+            <div class="row">
+                  <div class="col-md-5">
+            <img src="image1.jpg" height="300px" width="450px">
+        </div>
+        <div class="col-md-7" id="aboutMe">
+         <h3>About</h2>
+            Microsoft Certified Corporate Trainer Working as a Freelancer.
+
+            An Ambitious and Hard-Working individual looking forward to opportunities in Microsoft training domain. A technology oriented professional with around 3 years of rich & extensive experience in Data Center Solution Designing and Consultancy, Hyper V Virtualization, Cloud Computing, Servers design, Network infrastructure.
+            I have an extremely rich experience in imparting trainings on various Microsoft technologies such as Windows Azure, Office 365, Microsoft Unified Communications Solutions (Exchange 2013 Server), Microsoft Active Directory Domain Services Solutions, Microsoft System Center Suite, Windows Server Core Platform Solutions and Enterprise Mobility Suite.
+            Any organisation willing to conduct trainings on the aforementioned solutions can get in touch.
+            <br>
+            <br>
+            &emsp;&emsp;
+            &emsp;&emsp;
+            &emsp;&emsp;
+            &emsp;&emsp;
+            &emsp;&emsp;
+            &emsp;&emsp;    
+            
+            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+            &emsp;&emsp;
+            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
+            &emsp;&emsp;
+            <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+            
+        </div>
+            </div><!-- End row -->
+        </section>
+      </div><!--End Container-->
+    </div>
+   
+
+
+    <div class="container">
+    <div class="divider"></div>    
+    <div class="col-lg-12">
+      <center>
+          <blockquote>
+            <p>Ashish is what I aspire to be. A person with true soul and intentions</p>
+            <footer>Wayne Rooney!</footer>
+        </blockquote>
+    </center>
+    <div class="divider"></div>
+    </div>
+    </div>
+
+
+
+
+    <br>
   <!--Carousel for photos -->
-  	<div class="container">
-  	  <br>
+  	<div class="container animated bounceInLeft">
+  	 
   	  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
   	    <!-- Indicators -->
@@ -108,37 +146,8 @@
 
   	  </div>
 
-  	  <div class="container">
-  	  	<section>
-  	  		<div class="page-header" id="about">
-  	  			<h2>About :p<small> Check out what people think about me</small></h2>
-  	  		</div>
-
-  	  		<div class="row">
-  	  			<div class="col-md-4">
-  	  				<blockquote>
-  	  					<p>Ashish reminds me of Cristiano Ronaldo</p>
-  	  					<footer>Jose Mourinho</footer>
-  	  				</blockquote>
-  	  			</div>
-  	  			<div class="col-md-4">
-  	  				<blockquote>
-  	  					<p>Had I been in charge of United currently, I would have bought Ashish right now!</p>
-  	  					<footer>Alex Ferguson</footer>
-  	  				</blockquote>
-  	  			</div>
-  	  			<div class="col-md-4">
-  	  				<blockquote>
-  	  					<p>Ashish is what I aspire to be. A person with true soul and intentions</p>
-  	  					<footer>Wayne Rooney!</footer>
-  	  				</blockquote>
-  	  			</div>
-  	  		</div><!-- End row -->
-  	  	</section>
-  	  </div><!--End Container-->
-  	</div>
-
-        
+        <div class="container">
+        <div class="divider"></div>    
         <div class="col-lg-12">
           <center>
               <blockquote>
@@ -146,13 +155,15 @@
                 <footer>Wayne Rooney!</footer>
             </blockquote>
         </center>
-    </div>
+        <div class="divider"></div>
+        </div>
+        </div>
 
         <!--CERTIFICATIONS-->  
     <section>          
     <div class="container">
     <div class="page-header" id="certifications">
-       <u> <h2>Certifications</h2> </u>
+       <h3>Certifications</h3> 
     </div>
         <div class="col-md-10">
             <h4> 
@@ -167,11 +178,13 @@
             </p>
         </div>
         <div class="col-md-2">
-            <a href="https://www.microsoft.com/en-us/learning/certification-overview.aspx" target="_blank"><button class="btn btn-info" > See Certifications </button> </a>
+            <a href="https://www.microsoft.com/en-us/learning/certification-overview.aspx" target="_blank"><button class="btn btn-primary" > See Certifications </button> </a>
         </div>
     </div>
 
+
     <div class="container">
+    <div class="divider"></div>
         <div class="col-md-10">
             <h4> 
             Microsoft Certified Technology Specialist on Server Virtualization with System Center and Hyper V
@@ -185,11 +198,12 @@
             </p>
         </div>
         <div class="col-md-2">
-            <a href="http://www.microsoft.com/learning/en-us/certification-overview.aspx" target="_blank"><button class="btn btn-info" > See Certifications </button> </a>
+            <a href="http://www.microsoft.com/learning/en-us/certification-overview.aspx" target="_blank"><button class="btn btn-primary" > See Certifications </button> </a>
         </div>
     </div>
 
     <div class="container">
+    <div class="divider"></div>
         <div class="col-md-10">
             <h4> 
             Microsoft Certified Solutions Associate on Office 365
@@ -203,11 +217,13 @@
             </p>
         </div>
         <div class="col-md-2">
-            <a href="https://www.youracclaim.com/badges/9ca5cfcc-e1d7-468f-a0f0-430b35c76da7/linked_in_profile" target="_blank"><button class="btn btn-info" > See Certifications </button> </a>
+            <a href="https://www.youracclaim.com/badges/9ca5cfcc-e1d7-468f-a0f0-430b35c76da7/linked_in_profile" target="_blank"><button class="btn btn-primary" > See Certifications </button> </a>
         </div>
     </div>
 
     <div class="container">
+    <div class="divider"></div>
+    <section>
         <div class="col-md-10">
             <h4> 
             MS: Implementing Microsoft Azure Infrastructure Solutions
@@ -221,11 +237,13 @@
             </p>
         </div>
         <div class="col-md-2">
-            <a href="https://www.youracclaim.com/badges/3c382d8f-22ce-40b6-b018-5ce2ee12f4d3/linked_in_profile" target="_blank"><button class="btn btn-info" > See Certifications </button> </a>
+            <a href="https://www.youracclaim.com/badges/3c382d8f-22ce-40b6-b018-5ce2ee12f4d3/linked_in_profile" target="_blank"><button class="btn btn-primary" > See Certifications </button> </a>
         </div>
+        </section>
     </div>
 
     <div class="container">
+    <div class="divider"></div>
         <div class="col-md-10">
             <h4> 
             MS: Planning for and Managing Devices in the Enterprise
@@ -239,7 +257,7 @@
             </p>
         </div>
         <div class="col-md-2">
-            <a href="https://www.microsoft.com/en-gb/learning/certification-overview.aspx" target="_blank"><button class="btn btn-info" > See Certifications </button> </a>
+            <a href="https://www.microsoft.com/en-gb/learning/certification-overview.aspx" target="_blank"><button class="btn btn-primary" > See Certifications </button> </a>
         </div>
     </div>
     </section>
@@ -249,6 +267,7 @@
 
 
   	<div class="container">
+
   	  <section>
   	    <div class="page-header" id="contact">
   	        <h2>Contact Us.<small> Contact us for more.</small></h2>
@@ -302,7 +321,7 @@
   	<!--End of Carousel-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	<script>
-  		$(document).ready(function(){       
+  		/*$(document).ready(function(){       
   		   var scroll_start = 0;
   		   var startchange = $('#my-navbar');
   		   var offset = startchange.offset();
@@ -318,11 +337,46 @@
   		   			console.log("Works?")
   		  		 	$('#my-navbar').css('background-color', 'black');
   		   		}
-  		   });
-  		   
+  		   });*/
+  		   function onViewport(el, elClass, offset, callback) {
+             /*** Based on http://ejohn.org/blog/learning-from-twitter/ ***/
+             var didScroll = false;
+             var this_top;
+             var height;
+             var top;
+             
+             if(!offset) { var offset = 0; }
+            
+             $(window).scroll(function() {
+                 didScroll = true;
+             });
+            
+             setInterval(function() {
+               if (didScroll) {
+                 didScroll = false;
+                 top = $(this).scrollTop();
+            
+                 $(el).each(function(i){
+                   this_top = $(this).offset().top - offset;
+                   height   = $(this).height();
+            
+                   // Scrolled within current section
+                   if (top >= this_top && !$(this).hasClass(elClass)) {
+                     $(this).addClass(elClass);
+            
+                     if (typeof callback == "function") callback(el);
+                   }
+                 });
+               }
+             }, 100);
+           }
+           onViewport(".container", "animated bounceInDown", 300, function() {
+            // give every section a unique id and then animate it here
+             console.log("This is not a drill.")
+           });
   		});
   	</script>
-
+    <script src="https://use.fontawesome.com/53d537432a.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>	
